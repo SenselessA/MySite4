@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+body {
+    background-color: rgba(243,243,243);
+    color: #0d3351;
+    font-family: 'Raleway', 'Roboto Slab', sans-serif, serif;
+}
+.page-header {
+    background-image: url(../img/header.png);
+    max-height: 647px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+.dropdown {
+
+}
+main-menu-nav {
+
+}
+.main-menu-btn {
+    background: none;
+    border: none;
+}
+.dropdown-child {
+    position: absolute;
+    top: 60px;
+    display: none;
+    background-color: #0d3351;
+    min-width: 200px;
+    width: 420px;
+    height: 410px;
+    padding-top: 60px;
+}
+.dropdown-child a {
+    display: block;
+    text-decoration: none;
+    padding-left: 45px;
+    padding-right: 125px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    line-height: 48px;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+    cursor: pointer;
+}
+.dropdown:active .dropdown-child {
+    display: block;
+    cursor: pointer;
+}
+.i {
+    display: inline-block;
+    position:relative;
+    margin-left: 35px;
+}
+.i img{
+    position:absolute;
+    top: 4px;
+    left: -11px;
+}
+.i .main-nav{
+ font-family: 'Raleway', sans-serif;
+ font-size: 14px;
+ line-height: 48px;
+ border: none;
+ background: none;
+}
+.i p{
+ font-family: 'Raleway', sans-serif;
+ font-size: 10px;
+ line-height: 15px;
+}
+.i p:first-child {
+    font-size: 14px;
+    font-weight: bold;
+}
+.header-logo {
+    margin: 0 auto;
+    width: 88px;
+    height: 88px;
+}
+.header-title h2 {
+    text-align: center;
+    color: #0d3351;
+    font-size: 36px;
+    font-family: 'Roboto Slab', serif;
+    line-height: 48px;
+    padding-bottom: 35px;
+    padding-top: 5px;
+    font-weight: 400;
+}
+.header-title h1 {
+    padding-top: 0px;
+    margin-top: 0px;
+    text-align: center;
+    color: #0d3351;
+    font-size: 100px;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    line-height: 100px;
+    padding-bottom: 40px;
+    font-weight: 400;
+}
+.container .btn-cruize {
+    margin: 0 auto;
+    height: 50px;
+    width: 200px;
+    background-color: #33c7fd;
+}
+.container .btn-cruize a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 200px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+.container .btn-cruize:hover {
+    background-color: #13b0e9;
+}
+.container .btn-cruize:active {
+    background-color: #64d6ff;
+}
+.poloska {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding-right: 10px;
+}
+
+.cruise_catalog {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.cruise_catalog h2 {
+    color: #0d3351;
+    font-size: 36px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.cruise_catalog select {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #0d3351;
+    transform:skew(-5deg);
+    border: none;
+    background: none;
+}
+/* BLOCKS BODY ===========================*/
+
+.blocks {
+    display: flex;
+    margin-top: 40px;
+}
+
+.block-1 {
+    width: 50%;
+    margin: 15px;
+}
+
+.block-2{
+    width: 50%;
+    margin: 15px;
+}
+
+.block-item-1,
+.block-item-2,
+.block-item-3,
+.block-item-4,
+.block-item-5{
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.block-item-content-2 {
+    padding-top: 20px;
+    padding-left: 35px;
+
+}
+
+.block-item-content-2 h3 {
+    color: #00a2dd;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    line-height: 48px;
+}
+
+.block-item-content-2 p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+.block-item-content-2 p:last-child {
+    padding-bottom: 30px;
+}
+
+.boldick {
+    font-weight: bold;
+}
+
+.cost {
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+}
+
+/* BUTTON BOTTOM FOOTER PUUTER YEA YEA DADAYA ===========================*/
+
+
+/* footer =========================================*/
+
+.footerok {
+   display: flex;
+   justify-content: space-between;
+}
+
+.footer-left {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.footer-right {
+
+}
+
+.footer-info {
+    margin-top: 30px;
+    margin-right: 15px;
+}
+
+.footer-menu {
+margin-top: 30px;
+margin-left: 15px;
+}
+
+.footer-contacts {
+margin-top: 30px;
+}
+
+.page-footer {
+    height: 130px;
+    background-color: white;
+    margin-top: 62px;
+}
+
+.krujok {
+    display: inline-block;
+    border: 14px solid black;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    border-color: #0d3351;
+}
+.vk img{
+    position: absolute;
+    top: -5px;
+    left: -10px;
+}
+.ok img{
+    position: absolute;
+    top: -8px;
+    left: -5px;
+}
+
+.yt img{
+    position: absolute;
+    top: -9px;
+    left: -7px;
+}
+
+.inst img{
+    position: absolute;
+    top: -7px;
+    left: -7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
