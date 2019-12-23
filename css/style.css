@@ -10,6 +10,8 @@ li {
     list-style: none;
 }
 body {
+    min-width: 1160px;
+
     background-color: rgba(243,243,243);
     color: #0d3351;
     font-family: 'Raleway', 'Roboto Slab', sans-serif, serif;
