@@ -34,12 +34,7 @@ body {
     padding-top: 30px;
     margin-bottom: 20px;
 }
-.dropdown {
 
-}
-main-menu-nav {
-
-}
 .main-menu-btn {
     background: none;
     border: none;
@@ -253,10 +248,6 @@ main-menu-nav {
     display: flex;
     justify-content: space-between;
     width: 40%;
-}
-
-.footer-right {
-
 }
 
 .footer-info {
